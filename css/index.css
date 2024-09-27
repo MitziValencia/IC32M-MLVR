@@ -1,0 +1,39 @@
+*{
+    margin: 0px; /*margen*/
+    padding: 0p; /* sangria*/
+}
+
+#contenedor{ /*siempre hicia con #*/
+    width:90%;/*ancho para ajustar el dispositivo*/
+    margin:5px auto; /*modelo de caja, primer valor centrar, segundo valor */
+    border:4px silver solid;/*contorno de la pagina, estilos de lineas son dashed linea punteada, outset, inset*/ 
+    border-radius:10px ;/*para establecer el contorno*/
+}
+
+nav{
+    background-color: rgb(253, 33, 154);/*Color de borde de menú*/
+    text-align: center;
+    position: fixed;
+    width: 90%;
+    margin-bottom: 20px;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 10px;
+    margin-left: 25px;
+    
+}
+
+nav ul li a{
+    color: rgb(11, 11, 11);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:1.2em;
+    text-decoration: none;
+   
+}
+
+a:hover{
+    color:rgb(253, 253, 253);/*color de sombreado cuando pasas el mouse sobre el texto*/
+    text-decoration: underline; /*sombreado cuando pasas el mouse sobre el texto*/
+}

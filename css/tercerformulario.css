@@ -1,0 +1,83 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 15px;
+    background-color: #000000;
+    color: #042139 ;
+}
+
+.contenedor {
+    width: 60%;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+img{
+    display: block;
+    margin: 0 auto 20px;
+    border-radius: 15px;
+    max-width: 100%;
+    height: auto;
+}
+
+#logo img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.flex-row {
+    display: flex;
+    gap: 20px;
+}
+
+textarea {
+    height: 100px;
+}
+
+.checkbox-group {
+    display: flex;
+    align-items:center;
+}
+
+.submit-btn {
+    padding: 10px 20px;
+    background-color: #3aa6fd;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: #1b4b61;
+}

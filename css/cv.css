@@ -1,0 +1,12 @@
+*{
+    margin: 0px; /*margen*/
+    padding: 0p; /* sangria*/
+}
+
+body{
+    background: -webkit-linear-gradient(left, #000000, #000000);
+    background: -o-linear-gradient(right, #000000, #000000);
+    background: -moz-linear-gradient(right,#000000, #000000);
+    background: linear-gradient(to right, #d6eef3, #89cbf2);
+    background-color: #1e23ba;
+}

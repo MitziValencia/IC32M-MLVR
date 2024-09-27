@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+}
+
+#contenedor {
+    width: 80%;
+    margin: 10px auto;
+}
+
+button{
+    width: 50%;
+    margin-top: 10px;
+    background-color: rgb(red, green, blue);
+    color: black;
+    margin-left: 25%;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+/* Barra de navegación */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #000000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#logo img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+#menu {
+    display: flex;
+    list-style: none;
+}
+
+#menu li {
+    margin: 0 15px;
+}
+
+#menu li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+#menu li a:hover {
+    color: #007bff;
+}
+
+#redes ul {
+    display: flex;
+    list-style: none;
+}
+
+#redes ul li {
+    margin: 0 10px;
+    font-size: 18px;
+    color: #121212;
+}
+
+#redes ul li i {
+    margin-right: 5px;
+}
+
+
+
+
+header h1 {
+    position: relative;
+    z-index: 2; /* Se asegura que el texto esté sobre la imagen */
+}
+
+header:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Filtro oscuro para mejorar la legibilidad */
+    z-index: 1; /* El filtro está entre la imagen y el texto */
+}
+
+/* Estructura principal */
+main .columnas {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+#izq, #centro, #der {
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px #000e5a;
+}
+
+#izq, #der {
+    width: 50%;
+}
+
+#centro {
+    width: 40%;
+}
+
+#centro h2 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+#centro p {
+    text-align: justify;
+    color: #555;
+}
+
+/* Sección de dos columnas */
+.seccion-dos {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+#texto-izq, #texto-der {
+    width: 48%;
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+footer p {
+    margin: 0;
+}
+
+h1{
+    text-align: center;
+    color: black;
+}
+
+.columnas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.columnas > div {
+    flex: 1 1 30%; /* Permite que las columnas se ajusten */
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+/* Imagen redonda */
+.imagen-redonda {
+    width: 150px; /* Ajusta el tamaño de la imagen */
+    height: 150px;
+    border-radius: 50%; /* Hace que la imagen sea redonda */
+    object-fit: cover; /* Asegura que la imagen cubra toda el área circular */
+    margin-bottom: 15px;
+}
+.sobre-nosotros {
+    text-align: center; /* Centra el texto dentro del elemento */
+    max-width: 800px; /* Limita el ancho máximo del elemento */
+    margin: 0 auto; /* Centra el elemento horizontalmente */
+    color: #555;
+    font-size: medium;
+}
+#face{
+    color: #007bff;
+   text-align: end;
+}
+#ig{
+    color: rgb(204, 10, 133);
+    
+}
+#tw{
+    color: #90cfda;
+
+}

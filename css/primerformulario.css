@@ -1,0 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#contenedor{
+    width: 50%;
+    margin: 10px auto;
+}

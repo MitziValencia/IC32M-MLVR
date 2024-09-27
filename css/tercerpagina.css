@@ -1,0 +1,112 @@
+/* selector universal
+/* Propiedad:valor*/
+*{
+    margin: 0px; /*margen*/
+    padding: 0p; /* sangria*/
+}
+/* selector body*/
+body { 
+    background-color: rgb(219, 182, 72); /*color de fondo de la pagina*/
+    color: rgb(12, 12, 12); /*color de letra*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;/*cambiar tipo de letra*/
+   font-size: 1em; /*cambiar tamaño de letra, es recomendable em*/
+}
+#contenedor{ /*siempre hicia con #*/
+    width:90%;/*ancho para ajustar el dispositivo*/
+    margin:5px auto; /*modelo de caja, primer valor centrar, segundo valor */
+    border:4px silver solid;/*contorno de la pagina, estilos de lineas son dashed linea punteada, outset, inset*/ 
+    border-radius:10px ;/*para establecer el contorno*/
+}
+nav{
+    background-color: rgb(242, 110, 9);/*Color de borde de menú*/
+    text-align: center;
+    position: fixed;
+    width: 90%;
+    margin-bottom: 20px;
+
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 10px;
+    margin-left: 25px;
+    
+}
+nav ul li a{
+    color: rgb(11, 11, 11);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:1.2em;
+    text-decoration: none;
+   
+}
+a:hover{
+    color:rgb(36, 244, 4);/*color de sombreado cuando pasas el mouse sobre el texto*/
+    text-decoration: underline; /*sombreado cuando pasas el mouse sobre el texto*/
+}
+header{
+    margin-top: 95px;
+    height:200%; /*altura*/
+    background:rgb(245, 249, 0) url(../img/mariposa.jpeg); /*imagen de fondo, valor url para color de imagen de fondo*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    line-height: 150px;
+}
+h2,h3,h4,h5{
+    text-align: center;/*centrar los textos de titulos*/
+    margin: 10px; /*para separar los textos de titulos*/
+}
+h3{
+    color: rgb(11, 11, 11);
+}
+p{
+    padding:10px ;/*para separar texto de parrafos*/
+    text-align: justify;/*para jusfificar texto de parrafos*/
+    border: 1px silver solid;
+    border-radius: 10px;
+    margin: 0px 25px;
+}
+.impar{
+color: rgb(43, 35, 3);
+border-top-right-radius: 65px; ;
+
+}
+.par{
+    color: rgb(5, 5, 5);
+    padding: 0px 50px;
+
+}
+
+hr{
+    margin: 10px;
+    width: 70%;
+    color: silver;
+
+}
+#panel{
+    width: 50%;
+    margin: 10px auto;
+    height: 200px;
+    border: 1px silver outset;
+    border-radius: 10px;
+}
+.caja{
+    width: 80%;
+    height: 30px;
+    margin-left: 10%;
+}
+.Boton{
+    width: 50%;
+    margin-top: 10px;
+    background-color: blue;
+    color: white;
+    margin-left: 25%;
+    height: 40px;
+    margin-bottom:10px;
+}
+.altura{
+    height: 80px;
+}
+h1{
+    color: azure;
+}
